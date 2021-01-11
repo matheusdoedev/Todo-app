@@ -2,10 +2,18 @@ import React from "react";
 
 import Routes from "./routes";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import Gaps from "./styles/tools/gaps";
+import Reset from "./styles/generic/reset";
 
 const App = () => {
-  return <Routes />;
+  return (
+    <>
+      <Gaps />
+      <Reset />
+
+      <Routes />
+    </>
+  );
 };
 
 export default App;
