@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 import breakpoints from "./breakpoints";
 
 const Gaps = createGlobalStyle`
-    root {
+    :root {
         --gap: 0.5rem;
         --gap-xs: 1rem;
         --gap-sm: 1.5rem;

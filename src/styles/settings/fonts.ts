@@ -1,9 +1,12 @@
 const fonts = {
-  fontPrimary: `'Josefin Sans', sans-serif`,
+  fontPrimary: `
+    font-family: 'Josefin Sans', sans-serif;
+  `,
 
   bodyText: `
     font-size: 1.125rem;
     font-weight: 400;
+    line-height: 1.15em;
   `,
 
   titles: `
